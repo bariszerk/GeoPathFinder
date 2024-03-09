@@ -10,7 +10,7 @@ public class Main
     public static void main(String[] args){
 
         // Step 0 - read the input parameters
-        DatReader datReader = new DatReader("sample_input.dat");
+        DatReader datReader = new DatReader(args[0]);
 
 
         String grid_input_file_name = datReader.getStringVar("grid_input_file_name");
